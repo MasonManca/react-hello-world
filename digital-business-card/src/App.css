@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+}
+.secret{
+  position: absolute;
+  width: 555px;
+  height: 868px;
+  background: #23252C;
+}
+
+.profile{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+a{
+  margin: 0 0 15px 5.8rem;
+  font-size: 12px;
+  color: #F5F5F5;
+}
+
+.info{
+  color: white;
+  left: 116px;
+  top: 293px;
+  width: 300px;
+  height: 380px;
+  background: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+p{
+  margin: 5px 2rem 0 2rem;
+  font-size: 11px;
+}
+
+h3{
+  margin: 20px 0 8px 5.8rem;
+}
+
+h4{
+  margin: 15px 0 0 2rem;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h5{
+  margin:0 0 12px 4rem;
+  color: #F3BF99;
+}
+
+button{
+  margin: 8px 0 0 1.5rem;
+  height: 32px;
+  width: 115px;
+  border-radius: 6px;
+}
+
+.Email{
+  border: 1px solid white;
+  color: black;
+  background: white;
+  padding-left: 40px;
+}
+.email-icon{
+  position: absolute;
+  font-size: 15px;
+  top: 122px;
+  left: 53px;
+}
+
+.Linked{
+  border: 1px solid #5093E2;
+  color: white;
+  background: #5093E2;
+  padding-left: 20px;
+}
+.linked-icon{
+  position: absolute;
+  font-size: 15px;
+  top: 122px;
+  right: 107px;
+}
+
+footer{
+  position: absolute;
+  width: 300px;
+  height: 64px;
+  left: 116px;
+  top: 673px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-icons{
+  position: absolute;
+  flex-direction: row;
+  color: white;
+  font-size: 40px;
+  margin: 12px 0 0 90px;
+}
+.github-icon{
+  padding-right: 40px;
+}
