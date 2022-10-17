@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{ 
+    font-family: sans-serif;
+    color: #DEEBF8;
+    background: #28282d;
+    font-family: sans-serif;
+    background-image: url(./images/react-logo-half.png);
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+.funFacts{
+    padding: 60px 30px;
+
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    background: #21222A;
+    height: 95px;
+    padding: 30px 25px;
+}
+div > h1{
+    letter-spacing: -0.05rem;
+    align-items: center;
+    margin-bottom: 40px;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+nav > h4{
+    color: #DEEBF8;
+}
+nav > h3{
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+li{
+    line-height: 19px;
+    padding-block: 10px;
+}
+li::marker{
+    font-size: 1.5rem;
+    color: #61DAFB;
+}
+

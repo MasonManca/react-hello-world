@@ -1,0 +1,114 @@
+Starting board positions: 
+space 1 |1 |
+space 2 |6 |
+space 3 ||
+space 4 |3 2 |
+space 5 |8 |
+space 6 |7 5 9 |
+space 7 |4 |
+space 8 ||
+space 9 ||
+
+space 1 |1 2 |
+space 2 |6 |
+space 3 ||
+space 4 |3 |
+space 5 |8 |
+space 6 |7 5 9 |
+space 7 |4 |
+space 8 ||
+space 9 ||
+
+space 1 |1 2 |
+space 2 |6 |
+space 3 ||
+space 4 |3 |
+space 5 |8 |
+space 6 |7 5 |
+space 7 |4 |
+space 8 ||
+space 9 |9 |
+
+space 1 |1 2 3 |
+space 2 |6 |
+space 3 ||
+space 4 ||
+space 5 |8 |
+space 6 |7 5 |
+space 7 |4 |
+space 8 ||
+space 9 |9 |
+
+space 1 |1 2 3 4 |
+space 2 |6 |
+space 3 ||
+space 4 ||
+space 5 |8 |
+space 6 |7 5 |
+space 7 ||
+space 8 ||
+space 9 |9 |
+
+space 1 |1 2 3 4 5 |
+space 2 |6 |
+space 3 ||
+space 4 ||
+space 5 |8 |
+space 6 |7 |
+space 7 ||
+space 8 ||
+space 9 |9 |
+
+space 1 |1 2 3 4 5 6 |
+space 2 ||
+space 3 ||
+space 4 ||
+space 5 |8 |
+space 6 |7 |
+space 7 ||
+space 8 ||
+space 9 |9 |
+
+space 1 |1 2 3 4 5 6 7 |
+space 2 ||
+space 3 ||
+space 4 ||
+space 5 |8 |
+space 6 ||
+space 7 ||
+space 8 ||
+space 9 |9 |
+
+space 1 |1 2 3 4 5 6 7 8 |
+space 2 ||
+space 3 ||
+space 4 ||
+space 5 ||
+space 6 ||
+space 7 ||
+space 8 ||
+space 9 |9 |
+
+space 1 |1 2 3 4 5 6 7 8 9 |
+space 2 ||
+space 3 ||
+space 4 ||
+space 5 ||
+space 6 ||
+space 7 ||
+space 8 ||
+space 9 ||
+
+Finished board position: 
+space 1 |1 2 3 4 5 6 7 8 9 |
+space 2 ||
+space 3 ||
+space 4 ||
+space 5 ||
+space 6 ||
+space 7 ||
+space 8 ||
+space 9 ||
+
+Time to execute :  12.671 ms
+Number of steps taken:  9
