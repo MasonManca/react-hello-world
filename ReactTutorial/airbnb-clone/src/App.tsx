@@ -14,7 +14,14 @@ function Airbnb() {
       </header>
       <body>
         <Hero/>
-        <Card/>
+         <Card
+          img = "Katie.png"
+          rating = "5.0"
+          reviewCount = {6}
+          country = "United States"
+          title = "Life Lessons with Katie Zaferes"
+          price = {136}
+        /> 
       </body>
     </div>
   );

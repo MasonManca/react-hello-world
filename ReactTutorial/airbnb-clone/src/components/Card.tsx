@@ -1,18 +1,24 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
-export default function Card(){
+export default function Card(props){
+          // img = "Katie.png"
+          // rating = {5.0}
+          // reviewCount = {6}
+          // country = "United States"
+          // title = "Life Lessons with Katie Zaferes"
+          // price = {136}
     return(
         <section className='card'>
-            <img src={require("../images/Katie.png")} className='katie' alt="" />
+            <img src={require(`../images/${props.img}`)} className='katie' alt="help" />
             <div className='card-stats'>
                 <FaStar className='star' />
-                <span>5.0</span>
-                <span className='gray'>(6) • </span>
-                <span className='gray'>USA</span>
+                <span>{props.rating} </span>
+                <span className='gray'>({props.reviewCount}) • </span>
+                <span className='gray'>{props.country}</span>
             </div>
-            <p>Life Lessons with Katie Zaferes</p>
-            <p> <span className='bold'> From $136 </span> / person </p>
+            <p>{props.title}</p>
+            <p> <span className='bold'> From ${props.price} </span> / person </p>
             
             {/* <img src={require("../images/wedding.png")} className="wedding" alt="" />
             <p></p>
